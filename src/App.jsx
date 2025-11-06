@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="min-h-screen bg-white font-['Inter',sans-serif]">
+    <div className="min-h-screen bg-[#020C1B] font-['Inter',sans-serif] text-white">
       <Header />
       <main>
         <Hero />
@@ -15,7 +15,7 @@ function App() {
         <Projects />
         <Contact />
       </main>
-      <footer className="border-t border-gray-200 bg-white py-8 text-center text-sm text-gray-500">
+      <footer className="border-t border-white/10 bg-[#020C1B] py-8 text-center text-sm text-white/60">
         © {new Date().getFullYear()} Dhairya Soni. Crafted with care.
       </footer>
     </div>

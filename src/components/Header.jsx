@@ -5,7 +5,7 @@ const Header = () => {
   const [open, setOpen] = React.useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-[#0A2540]/70 backdrop-blur-md">
+    <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-[#020C1B]/70 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 text-white">
         <a href="#home" className="text-lg font-semibold tracking-tight">
           Dhairya Soni
@@ -51,7 +51,7 @@ const Header = () => {
         </button>
       </div>
       {open && (
-        <div className="border-t border-white/10 bg-[#0A2540]/80 px-6 py-3 text-white md:hidden">
+        <div className="border-t border-white/10 bg-[#020C1B]/80 px-6 py-3 text-white md:hidden">
           <div className="flex flex-col space-y-3">
             <a href="#home" onClick={() => setOpen(false)} className="text-sm text-white/80 hover:text-white">Home</a>
             <a href="#about" onClick={() => setOpen(false)} className="text-sm text-white/80 hover:text-white">About</a>
